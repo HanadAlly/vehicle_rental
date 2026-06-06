@@ -1,8 +1,8 @@
 <?php
 $host = 'localhost';
 $db   = 'rental_db';
-$user = 'root';
-$pass = ''; // Leave blank for XAMPP default. Change if using MAMP.
+$user = 'rental_admin'; // Updated from 'root'
+$pass = 'password123';  // Updated from ''
 $charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
